@@ -1,0 +1,40 @@
+.flexRow {
+  display: flex;
+}
+
+.img {
+  max-width: 300px;
+  align-self: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.gray {
+  color: #ccc;
+}
+
+.descr {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.descr > span {
+  margin-top: 10px;
+}
+
+.descr > p {
+  margin-top: 15px;
+  line-height: 1.5rem;
+}
+
+@media all and (max-width: 767px) {
+  .flexRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
