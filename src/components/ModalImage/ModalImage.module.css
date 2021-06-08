@@ -1,0 +1,36 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, .9);
+  padding: 20px;
+}
+
+.close {
+  font-size: 4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70%;
+  margin: auto;
+  margin-right: 20px;
+}
+
+.img {
+  height: 100%;
+  max-width: 75%;
+}
+
+.arrows {
+  cursor: pointer;
+  font-size: 2.5rem;
+}

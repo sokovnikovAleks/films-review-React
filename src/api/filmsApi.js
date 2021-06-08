@@ -12,6 +12,10 @@ class FilmsApi {
     return await axios.get(`${url}/api/v2.1/films/${id}`, config)
   }
 
+  static async getImagesById(id) {
+    return await axios.get(`https://kinopoiskapiunofficial.tech/api/v2.1/films/${id}/frames`, config)
+  }
+
 }
 
 export default FilmsApi
